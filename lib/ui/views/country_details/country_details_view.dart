@@ -60,7 +60,7 @@ class CountryDetailsView extends StatelessWidget{
             Align(
               alignment: Alignment.bottomCenter,
               child: ElevatedButton(
-                onPressed: () => _launchGoogleMaps(country.capital),
+                onPressed: () => _launchGoogleMaps(country.name),
                 child: const Text('View on Google Maps'),
               ),
             ),
